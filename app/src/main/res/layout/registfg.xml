@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@mipmap/regist" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="20dp"
+        android:background="#8B4B4A4A" />
+
+    <EditText
+        android:id="@+id/rgPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/editbg"
+        android:gravity="center"
+        android:hint="请输入绑定手机号"
+        android:inputType="phone"
+        android:maxLength="11"
+        android:paddingVertical="10dp"
+        android:textColor="#6B6B6B" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/btnbg"
+        android:gravity="center"
+        android:paddingHorizontal="35dp"
+        android:paddingVertical="10dp"
+        android:text="下一步"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+</LinearLayout>

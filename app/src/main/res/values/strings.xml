@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Class Demo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">打开</string>
+    <string name="navigation_drawer_close">关闭</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="propt">网页浏览</string>
+    <string-array name="spinner">
+        <item>选择默认网址:</item>
+        <item>360搜索</item>
+        <item>Bing</item>
+        <item>智慧树</item>
+        <item>搜狐</item>
+        <item>京东</item>
+    </string-array>
+
+    <string-array name="map">
+        <item>选择地图模式</item>
+        <item>导航模式</item>
+        <item>夜景模式</item>
+        <item>白昼模式</item>
+        <item>卫星模式</item>
+        <item>公交模式</item>
+    </string-array>
+</resources>

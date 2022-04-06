@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group  android:checkableBehavior="single">
+        <item
+            android:id="@+id/zhuye"
+            android:icon="@drawable/shou"
+            android:title="主页" />
+        <item
+            android:id="@+id/guanyu"
+            android:icon="@drawable/guanyu"
+            android:title="关于" />
+    </group>
+    <group  android:checkableBehavior="single">
+        <item
+            android:id="@+id/logOut"
+            android:icon="@drawable/loginout"
+            android:title="注销账户" />
+        <item
+            android:id="@+id/e"
+            android:icon="@drawable/exit"
+            android:title="退出" />
+    </group>
+</menu>

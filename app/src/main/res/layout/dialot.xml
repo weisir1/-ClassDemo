@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/textbg"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="退出"
+        android:textColor="#922E2E"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#292828" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="您确定不在看看了吗?  还有很多好玩的"
+        android:textColor="#DD111111"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="#2B2929"
+            android:id="@+id/exit"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:paddingVertical="10dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/textbg"
+            android:text="告辞" />
+
+        <TextView
+            android:gravity="center"
+            android:textColor="#2B2929"
+            android:layout_marginLeft="80dp"
+            android:layout_weight="1"
+            android:paddingVertical="10dp"
+            android:id="@+id/cancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/textbg"
+            android:text="那再看看" />
+    </LinearLayout>
+</LinearLayout>
